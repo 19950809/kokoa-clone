@@ -1,0 +1,19 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(174, 174, 174, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting i {
+  margin-right: 15px;
+  font-size: 22px;
+  opacity: 0.8;
+}
+.settings__setting-column:last-child {
+  color: var(--grey-color);
+}
+.settings__setting:nth-child(3) {
+  border-bottom: var(--main-border);
+}
